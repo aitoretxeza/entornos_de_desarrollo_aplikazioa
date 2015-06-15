@@ -1,0 +1,264 @@
+body
+	{
+		font-size: 15px;
+		font-family: sans-serif;
+		background: #312783;
+	}
+
+th
+	{
+		background: #210B2C;
+		color: #312783;
+		padding: 10px;
+		width: 200px;
+		height: 70px;
+	}
+
+th.botoia
+	{
+		background: #210B2C;
+		padding: 10px;
+		width: 50px;
+	}
+
+td
+	{
+		background: #B7A4CE;
+		padding: 10px;
+		height: 70px;
+	}
+
+h1
+	{
+		font-size: 20px;
+		text-align: center;
+		color: #009FE3;
+		font-weight: bold;
+	}
+
+h2
+	{
+		font-size: 17.5px;
+		text-align: center;
+		color: #009FE3;
+	}
+
+h2.mayus
+	{
+		text-transform: uppercase;
+	}
+
+label
+	{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+fieldset.mezua
+	{
+		background: #7CFEF0;
+		border-width: 10px;
+		border-color: #009FE3;
+	}
+
+legend
+	{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+a:link, a:visited, a:hover, a:active
+	{
+		font-size: 15px;
+		text-align: center;
+		color: #000000;
+	}
+
+form.login
+	{
+		position: absolute;
+		top: 25%;
+		left: 50%;
+		width: 300px;
+		margin-left:-150px;
+		height: 160px;
+		margin-top:-80px;
+		padding: 20px;
+		border-radius: 0px 25px;
+		background: #009FE3;
+	}
+
+form.login div
+	{
+		margin-bottom: 15px;
+		overflow: hidden;
+	}
+
+form.login div label
+	{
+		display: block;
+		float: left;
+		line-height: 25px;
+	}
+
+form.login div input[type="text"], form.login div input[type="password"], form.login div select
+	{
+		border: 1px solid #DCDCDC;
+		float: right;
+		padding: 4px;
+		width: 150px
+	}
+
+form.login div input[type="submit"]
+	{
+		background: #65B65A;
+		float: right;
+		font-weight: bold;
+		padding: 4px 20px;
+		border-radius: 5px;
+	}
+
+form.login div input[type="submit"]:active
+	{
+		background: #ABFAA9;
+	}
+
+form.kontsulta input[type="text"], form.kontsulta select
+	{
+		border: 1px solid #DCDCDC;
+		padding: 4px;
+		width: 150px
+	}
+
+form.kontsulta input[type="submit"]
+	{
+		background: #65B65A;
+		font-weight: bold;
+		padding: 4px 20px;
+		border-radius: 5px;
+	}
+
+form.kontsulta input[type="submit"]:active
+	{
+		background: #ABFAA9;
+	}
+
+form.datuak div label
+	{
+		font-weight: bold;
+		display: block;
+		float: left;
+		line-height: 25px;
+	}
+
+form.datuak div input[type="text"], form.datuak div input[type="password"], form.datuak div select
+	{
+		border: 1px solid #DCDCDC;
+		float: right;
+		padding: 4px;
+		width: 140px
+	}
+
+form.datuak input[type="submit"], form.datuak button[type="button"]
+	{
+		margin: 10px 0px;
+		background: #65B65A;
+		font-weight: bold;
+		padding: 4px 20px;
+		border-radius: 5px;
+	}
+
+form.datuak input[type="submit"]:active, form.datuak button[type="button"]:active
+	{
+		background: #ABFAA9;
+	}
+
+div.menua
+	{
+		position: fixed;
+		z-index: 100;
+		height: 95%;
+		width: 200px;
+		padding: 10px;
+		background: #6AD5CB;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+div.edukia1
+	{
+		position: absolute;
+		margin-left: 250px;
+	}
+
+div.edukia2
+	{
+		position: absolute;
+		top: 5%;
+		left: 50%;
+		width: 350px;
+		margin-left: -175px;
+		padding: 20;
+		background: #6AD5CB;
+	}
+
+div.center
+	{
+		margin-top: 15%;
+		text-align: center;
+		font-size: 25px;
+	}
+
+div.center2
+	{
+		text-align: center;
+		font-size: 25px;
+	}
+
+div.center table
+	{
+		margin:0 auto;
+		text-align: center;
+	}
+
+.botoia button[type="button"]
+	{
+		margin: 10px 0px;
+		background: #65B65A;
+		font-weight: bold;
+		padding: 4px 20px;
+		border-radius: 5px;
+	}
+
+.botoia button[type="button"]:active
+	{
+		margin: 10px 0px;
+		background: #ABFAA9;
+		font-weight: bold;
+		padding: 4px 20px;
+		border-radius: 5px;
+	}
+
+.atzera
+	{
+		position: absolute;
+		left: 50%;
+		width: 100px;
+		margin-left: -50px;
+		bottom: 10px;
+	}
+
+.error
+	{
+		color: #990012;
+		font-weight: bold;
+		font-size: 25px;
+		margin-top: 5%;
+		text-align: center;
+	}
+
+.mayus_i
+	{
+		text-transform: uppercase;
+		font-style: italic;
+	}

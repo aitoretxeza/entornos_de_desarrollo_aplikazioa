@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>: . : . : SARRERA : . : . :</title>
+		<link rel="stylesheet" type="text/css" href="estiloa.css">
+		<link rel="icon" type="image/png" href="irudiak/logoa.png" />
+	</head>
+	<body>
+		<form action="login.php" method="post" class="login">
+			<div>
+				<label>ERABILTZAILEA</label>
+				<input name="user" type="text" required>
+			</div>
+			<div>
+				<label>MAILA</label>
+				<select name="maila" required>
+					<option selected value="">- AUKERATU -</option>
+					<option value="Administratzailea">Administratzailea</option>
+					<option value="Irakaslea">Irakaslea</option>
+					<option value="Ikaslea">Ikaslea</option>
+				</select>
+			</div>
+			<div>
+				<label>PASAHITZA</label>
+				<input name="password" type="password" required>
+			</div> 
+			<div>
+				<input name="login" type="submit" value="SARTU">
+			</div> 
+		</form>
+	</body>
+</html>
